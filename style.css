@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("images/Church.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header h1, header h2 {
+    display: block;
+    visibility: visible;
+    margin: 0.2em 0;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1, h2 {
+    color: #8b0000;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #8b0000;
+    color: white;
+    margin-top: 40px;
+}
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* 图片之间的间距 */
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.photo-grid img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.05);
+}
